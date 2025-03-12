@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+	
+  <head th:fragment="html_head">
+    <meta charset="UTF-8" />
+    <title>[[${title}]]</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+  </head>
+  
+  <body>
+    <footer th:fragment="page_footer">
+      <p><small>© ABC Inc. All Rights Reserved.</small></p>
+    </footer>
+  </body>
+</html>

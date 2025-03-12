@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="parts/common :: html_head"></head>
+  <body>
+    <h1>[[${title}]]</h1>
+    <p><a th:href="@{/item}">商品一覧</a></p>
+    <footer th:replace="parts/common :: page_footer"></footer>
+  </body>
+</html>
